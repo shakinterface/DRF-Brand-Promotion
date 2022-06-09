@@ -44,6 +44,8 @@ class CustomerGoalsViewSet(viewsets.ModelViewSet):
     serializer_class=CustomerGoalsSerializer
     filter_fields = (
         'user_id',
+        'brands_id',
+        'plans_id',
     )
 
 
